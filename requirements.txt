@@ -1,0 +1,4 @@
+!apt-get update -qq
+!apt-get install -y tesseract-ocr tesseract-ocr-por
+!pip install -q streamlit pandas numpy scipy plotly pytesseract opencv-python-headless Pillow openpyxl
+!npm install localtunnel
