@@ -1,10 +1,9 @@
-import urllib
-print("O SEU IP DE ACESSO É:", urllib.request.urlopen('https://ipv4.icanhazip.com').read().decode('utf8').strip())
-print("Copie o IP acima e clique no link gerado abaixo.")
-
-!streamlit run app.py & npx localtunnel --port 8501
-
-!apt-get update -qq
-!apt-get install -y tesseract-ocr tesseract-ocr-por
-!pip install -q streamlit pandas numpy scipy plotly pytesseract opencv-python-headless Pillow openpyxl
-!npm install localtunnel
+streamlit
+pandas
+numpy
+scipy
+plotly
+opencv-python-headless
+pytesseract
+Pillow
+openpyxl
